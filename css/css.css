@@ -1,0 +1,40 @@
+html {
+	--background: #000;
+	--primary: #fff;
+	color: #fff;
+}
+
+body {
+	background: var(--background,#fff);
+	color: var(--primary,#000);
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 700px;
+	padding: 10px;
+	word-break: break-word;
+	overflow-wrap: break-word;
+}
+
+body * {
+	max-width: 100%;
+}
+
+
+header {
+	padding: 10px 0;
+}
+
+header * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.border-bottom, header {
+	border-bottom: 1px solid #000;
+	border-bottom: 1px solid var(--primary,#000);
+}
+
+a, hr {
+	color: #000;
+	color: var(--primary,#000);
+}
