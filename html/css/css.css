@@ -1,11 +1,12 @@
 html {
-	--background: #000;
-	--primary: #fff;
-	color: #fff;
+	background-color: #e5e5f7;
+	background-image:  radial-gradient(#636bff 1.3px, transparent 1.3px), radial-gradient(#444cf7 1.3px, #e5e5f7 1.3px);
+	background-size: 52px 52px;
+	background-position: 0 0,26px 26px;
 }
 
+
 body {
-	background: var(--background,#fff);
 	color: var(--primary,#000);
 	line-height: 1.5;
 	margin: 0 auto;
@@ -36,5 +37,8 @@ header * {
 
 a, hr {
 	color: #000;
+	background-color: #e5e5f7;
 	color: var(--primary,#000);
 }
+
+
