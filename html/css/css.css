@@ -44,7 +44,6 @@ body * {
 	max-width: 100%;
 }
 
-
 header {
 	padding: 10px 0;
 }
@@ -72,9 +71,14 @@ nav>a:nth-of-type(odd) {
 	padding: 10px
 }
 
-
 a, hr {
 	color: rgb(0, 0, 0);
 }
 
+th, td {
+	padding: 20px;
+}
 
+#next-event td {
+	font-size: 30px;
+}
