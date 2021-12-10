@@ -59,10 +59,22 @@ header * {
 	border-bottom: 1px solid var(--primary,#000);
 }
 
+h1 {
+	font-size: 180%;
+	padding-bottom: 5px;
+}
+
+nav {
+	text-align: center
+}
+
+nav>a:nth-of-type(odd) {
+	padding: 10px
+}
+
+
 a, hr {
-	color: #000;
-	background-color: #e5e5f7;
-	color: var(--primary,#000);
+	color: rgb(0, 0, 0);
 }
 
 
