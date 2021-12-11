@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://roberts-bangkok-boardgame-round.com/sitemap.xml
