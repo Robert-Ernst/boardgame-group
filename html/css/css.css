@@ -12,8 +12,8 @@ body {
 	margin: 0 auto;
 	max-width: 700px;
 	padding: 10px;
-	word-break: break-word;
-	overflow-wrap: break-word;
+	word-break: normal;
+	overflow-wrap: anywhere;
 	margin-top: 3%;
 }
 
