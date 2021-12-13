@@ -75,3 +75,22 @@ pre.markdownbody {
     overflow-x: scroll;
     padding: 1.125em;
 }
+
+.ratings td,th{
+    padding: 2;
+    padding-right: 50;
+    text-align: left;
+    font-size: 25;
+}
+
+table.ratings {
+    border-collapse: collapse;
+  }
+
+table tfoot {
+    border-top: 1px solid black;
+}
+
+table thead { 
+    border-bottom: 1px solid black;
+}
