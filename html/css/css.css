@@ -68,7 +68,7 @@ nav {
 }
 
 nav>a:nth-of-type(odd) {
-	padding: 10px
+	padding: 5px
 }
 
 a, hr {
