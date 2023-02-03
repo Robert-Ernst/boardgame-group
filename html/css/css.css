@@ -44,6 +44,11 @@ body * {
 	max-width: 100%;
 }
 
+#title {
+	font-size: 180%;
+	font-weight: bold;
+}
+
 header {
 	padding: 10px 0;
 }
